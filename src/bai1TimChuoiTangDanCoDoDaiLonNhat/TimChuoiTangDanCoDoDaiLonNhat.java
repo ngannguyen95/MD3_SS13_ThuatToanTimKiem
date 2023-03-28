@@ -1,3 +1,5 @@
+package bai1TimChuoiTangDanCoDoDaiLonNhat;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -13,6 +15,8 @@ public class TimChuoiTangDanCoDoDaiLonNhat {
 
 
         for (int i = 0; i < inputString.length(); i++) {
+            //String .value - phuong thức chuyển đổi kiểu dữ liệu khác thành chuỗi
+            // ở đây chuyển đoạn vừa nhập thành chuỗi
             String temp = String.valueOf(inputString.charAt(i));
             max = inputString.charAt(i);
             for (int j = i + 1; j < inputString.length() - 1; j++) {
